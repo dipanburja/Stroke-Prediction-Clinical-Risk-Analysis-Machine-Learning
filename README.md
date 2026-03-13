@@ -68,6 +68,8 @@ stroke-prediction/
 - Stroke rate by smoking status
 - Hypertension × Heart Disease interaction
 
+![EDA Visualizations](outputs/eda_visualizations.png)
+
 ### Task 3 — Model Building
 Three models trained and compared using a 75/25 stratified split + SMOTE balancing:
 
@@ -79,15 +81,23 @@ Three models trained and compared using a 75/25 stratified split + SMOTE balanci
 
 > Run the script to populate your exact metric values above.
 
+![Model Comparison](outputs/model_comparison.png)
+
+![Random Forest Feature Importance](outputs/rf_feature_importance.png)
+
 ### Task 4 — Cross-Validation
 - 10-fold cross-validation on Logistic Regression
 - Metrics: Accuracy, ROC-AUC, Sensitivity, Specificity
 - Confirms model is stable and not overfit to one split
 
+![Cross Validation Results](outputs/cross_validation_results.png)
+
 ### Task 5 — Evaluation & ROC Curves
 - ROC curves plotted for all 3 models on one chart
 - AUC scores compared side by side
 - Confusion matrix and sensitivity reported for baseline model
+
+![ROC Curves](outputs/roc_curves.png)
 
 ### Task 6 — Deployment Demo
 - Two synthetic patients tested (high-risk vs low-risk profile)
