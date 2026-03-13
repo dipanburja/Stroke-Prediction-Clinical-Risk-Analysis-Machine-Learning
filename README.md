@@ -68,7 +68,7 @@ stroke-prediction/
 - Stroke rate by smoking status
 - Hypertension × Heart Disease interaction
 
-![EDA Visualizations](outputs/eda_visualizations.png)
+![EDA Visualizations](outputs/EDA_Visualizations.png)
 
 ### Task 3 — Model Building
 Three models trained and compared using a 75/25 stratified split + SMOTE balancing:
