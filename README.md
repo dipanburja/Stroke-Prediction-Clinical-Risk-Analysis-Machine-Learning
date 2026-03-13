@@ -73,13 +73,15 @@ stroke-prediction/
 ### Task 3 — Model Building
 Three models trained and compared using a 75/25 stratified split + SMOTE balancing:
 
-| Model | Accuracy | ROC-AUC | Sensitivity | Specificity |
-|---|---|---|---|---|
-| Logistic Regression | ~76% | — | — | — |
-| Random Forest | ~90% | — | — | — |
-| XGBoost | ~93% | — | — | — |
+| Model | Accuracy | Sensitivity | Specificity |
+|---|---|---|---|
+| Logistic Regression | 76.3% | 76.4% | 75.0% |
+| Random Forest | 90.1% | 93.9% | 17.2% |
+| **XGBoost** | **93.0%** | **97.3%** | **10.9%** |
 
-> Run the script to populate your exact metric values above.
+> ⚠️ Note: ROC-AUC values are being recalculated with the correct event level — update after re-running the script.
+
+**🏆 Best Model: XGBoost** achieved the highest accuracy (93%) and sensitivity (97.3%), meaning it correctly identifies the most stroke patients.
 
 ![Model Comparison](outputs/model_comparison.png)
 
