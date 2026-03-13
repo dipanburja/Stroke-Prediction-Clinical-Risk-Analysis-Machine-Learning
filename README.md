@@ -2,7 +2,7 @@
 📌 Project Overview
 This project utilizes a clinical dataset of 5,110 patients to develop a machine learning model capable of predicting stroke risk. dataset : ## 📌 Project Overview
 This project utilizes a clinical dataset of **5,110 patients** to predict stroke risk.
-* **Data Source:** [Stroke Prediction Dataset on Kaggle](https://www.kaggle.com/code/rishabh057/healthcare-dataset-stroke-data/notebook) The primary goal was to handle significant class imbalances and missing data to create a reliable screening tool for healthcare providers.
+* **Data Source:** [Stroke Prediction Dataset ]((https://www.coursera.org/learn/showcase-build-and-deploy-a-stroke-prediction-model-with-r/resources/QFFlF)) The primary goal was to handle significant class imbalances and missing data to create a reliable screening tool for healthcare providers.
 🛠️ Data Science Workflow
 I followed a structured pipeline using the tidymodels framework in R:
     Data Cleaning: Performed Median Imputation for missing BMI values to maintain the dataset's statistical distribution.
